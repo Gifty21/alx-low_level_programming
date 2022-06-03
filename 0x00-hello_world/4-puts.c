@@ -1,7 +1,10 @@
 #include <stdio.h>
 /**
  * main - main block
- * Return: 0
+ *
+ * Description: this prints out string
+ *
+ * Return: 0 if success.
  */
 int main(void)
 {
