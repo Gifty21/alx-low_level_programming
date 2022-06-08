@@ -8,7 +8,7 @@
  */
 int main(void)
 {
-	char c[] = "_putchar";
+	char c[i] = _putchar;
 	int length, i;
 
 	length = strlen(c);
@@ -21,5 +21,4 @@ int main(void)
 	_putchar('\n');
 
 	return (0);
-}
 }
