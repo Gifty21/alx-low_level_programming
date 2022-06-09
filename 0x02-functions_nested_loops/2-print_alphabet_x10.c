@@ -5,7 +5,7 @@
  *
  */
 
-void print_alphabet_x10(void)
+int print_alphabet_x10(void)
 {
 	int i = 0, j;
 
@@ -15,11 +15,11 @@ void print_alphabet_x10(void)
 
 		while (j <= 122)
 		{
-			_putchar(j);
+			putchar(j);
 
 			j++;
 		}
-		_putchar('\n');
+		putchar('\n');
 
 		i++;
 	}

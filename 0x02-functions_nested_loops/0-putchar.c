@@ -1,23 +1,20 @@
 #include "main.h"
-#include <string.h>
 
 /**
- * main - a program that prints
+ * main - Entry point
  *
- * Return: Always (0)
+ * Return: Always 0
  */
 int main(void)
 {
-	char c[i] = _putchar;
-	int length, i;
-
-	length = strlen(c);
-
-	for (i = 0; i < length; i++)
-	{
-		_putchar(c[i]);
-	}
-
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
 	_putchar('\n');
 
 	return (0);
