@@ -1,25 +1,21 @@
 #include "main.h"
-#include <stdbool.h>
 
 /**
- * print_alphabet - function that prints lowercase alphabet
+ * print_alphabet - entry point
  *
+ * Return: Always 0
  */
 
 int print_alphabet(void)
 {
-	int i = 97;
-	bool a = true;
+	char alpha = 'a';
 
-	while (a)
+	while (alpha <= 'z')
 	{
-		_putchar;
-
-		if (i == 122)
-		{
-			a = false;
-		}
-		i++;
+		_putchar(alpha);
+		alpha++;
 	}
 	_putchar('\n');
+
+	return(0);
 }
